@@ -1,4 +1,8 @@
 /* GLOBAL STYLES */
+html {
+    box-shadow: 0 0 0 30px #000 inset;
+    padding: 0 30px;
+}
 body {
     font-family: helvetica, arial, sans-serif;
 }
@@ -20,21 +24,21 @@ h2 ~ p {
 .header {
     background-color: #000;
     color: #fff;
-    /*height: 300px;*/
-    /*position: relative;*/
-    /*width: 100%;*/
+    position: fixed;
+    width: 100%;
+    z-index: 20;
 }
 .header-logo {
     background-color: #000;
     box-sizing: border-box;
     display: block;
     height: 10vh;
+    left: -30px;
     padding-top: 10px;
     position: relative;
     text-align: center;
     width: 10vh;
 }
-
 .header-logo:hover,
 .header-logo:active {
     background-color: #ed6e2f;
@@ -74,6 +78,7 @@ h2 ~ p {
 /* HERO STYLES */
 .full-hero {
     background-color: #c7dbfc;
+    padding-top: 2em;
     height: 50vh;
 }
 
