@@ -512,7 +512,7 @@ h4 {
         display: inline-block;
     }
     .gallery-thumbs img {
-        height: 9vh;
+        height: 7vh;
         margin: 0 10px 0 0;
         width: auto;
     }
@@ -524,7 +524,7 @@ h4 {
     .blog-recent {
         display: none;
     }
-    .block-previws {
+    .block-previews {
         padding: 0;
     }
 }
